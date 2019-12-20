@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Enigma | Login</title>
+    </head>
+    <body>
+        <form class="form-group">
+            <label>LOGIN</label>
+            <input type="text" name="login" class="form-control rounded-0" [(ngModel)]="loginUserData.login" required>
+            <label>PASSWORD</label>
+            <input type="password" name="password" class="form-control rounded-0"  [(ngModel)]="loginUserData.password" required>
+            <button type="button" class="btn btn-success float-right" (click)="loginUser()">Connexion</button>
+        </form>
+    </body>
+</html>
